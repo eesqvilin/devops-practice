@@ -12,5 +12,5 @@ jobs:
       - name: Run a simple check
         run: |
           echo "Running checks..."
-          echo "Hello from the pipeline!"
-          ls -la
+          this-command-does-not-exist
+          echo "This should never print"
