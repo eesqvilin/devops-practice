@@ -12,5 +12,5 @@ jobs:
       - name: Run a simple check
         run: |
           echo "Running checks..."
-          this-command-does-not-exist
-          echo "This should never print"
+          echo "Hello again..."
+          echo "Back on track..."
